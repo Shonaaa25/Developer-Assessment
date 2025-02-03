@@ -1,0 +1,131 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9fa;
+    font: 1.2em/1.2 Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 .5em;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 1.75em;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+	margin-left: 28rem
+}
+
+p {
+    margin: 0 0 1.5em;
+    line-height: 1.5;
+}
+
+/* Navigation bar */
+.nav {
+    background: #091438;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+	height=250;
+}
+
+/* Banner styling for heading */
+.banner {
+    background: #c1012b;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+@media (min-width: 42em) {
+    .header {
+        padding: 1.5em 3em;
+    }
+
+/* Main content */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Adjust image to align with text and button */
+.container .row .col-md-6 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* test banner*/
+.test-banner {
+    background-color: #c1012b;
+	color:white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container2{
+	background: #e9e9e9;
+max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Buttons */
+.btn {
+    display: block; 
+    width: 150px;
+    height:90px; 
+    line-height: 90px; 
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: ; 
+    margin: 50px auto; 
+}
+
+.btn-primary {
+    background: #c1012b;
+    color: white;
+    font-size: 18px;
+}
+
+.btn-primary:hover {
+    background: #a00024;
+}
+
+
+/* Footer */
+.footer-area {
+    background-color: #091438; 
+    color: #fff;               
+    font-size: 15px;           
+    line-height: 1.5;          
+    padding: 60px 0;           
+    text-align: center; 
+}
+
+/* Additional footer styles */
+.footer-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+

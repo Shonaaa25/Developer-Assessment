@@ -1,0 +1,147 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9fa;
+    font: 1.2em/1.2 Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navigation bar */
+.nav {
+    background: #091438;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+	height=250;
+}
+
+.nav h2 {
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+	margin-left: 28rem
+}
+p{
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin-top: 0;
+    margin-bottom: 1rem;
+	text-align: center;
+
+}
+
+        /* Certificate Claim Container */
+        .certificate-container {
+            background: #e0e0e0;
+            padding: 30px;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .certificate-container h2 {
+            color: #c1012b;
+            font-weight: 700;
+			text-align: center;
+        }
+
+        /* Timer */
+        .base-timer {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+        }
+
+        .base-timer__svg {
+            transform: scaleX(-1);
+        }
+
+        .base-timer__circle {
+            fill: none;
+            stroke: none;
+        }
+
+        .base-timer__path-elapsed {
+            stroke-width: 7px;
+            stroke: grey;
+        }
+
+        .base-timer__path-remaining {
+            stroke-width: 7px;
+            stroke-linecap: round;
+            transform: rotate(90deg);
+            transform-origin: center;
+            transition: 1s linear all;
+            fill-rule: nonzero;
+            stroke: red;
+        }
+
+        .base-timer__label {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Download Button */
+        .btn-download {
+            display: block;
+            background: #c1012b;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 10px;
+            margin: 15px auto;
+            max-width: 250px;
+			animation: pulse 1.5s infinite;
+			text-align:center;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+	
+        .btn-download:hover {
+            background: #a00025;
+            color: white;
+        }
+
+
+/* Footer */
+.footer-area {
+    background-color: #091438; 
+    color: #fff;               
+    font-size: 15px;           
+    line-height: 1.5;          
+    padding: 60px 0;           
+    text-align: center; 
+}
+
+/* Additional footer styles */
+.footer-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
